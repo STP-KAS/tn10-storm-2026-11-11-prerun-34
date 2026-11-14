@@ -31,7 +31,7 @@ Two recorded facts that are not a second knob:
 
 ## Order
 
-1. Disk floor written. Desk free space at 2026-11-14T13:45Z: 337.25 GB. Abort under 150 GB. The desk node is not restarted.
+1. Disk floor written. Desk free space at 2026-11-14T13:36:51Z: 337.4 GB. Abort under 150 GB. The desk node is not restarted.
 2. Free check, read-only, committed before any submit. Names that do not answer are logged and dropped. A raw address found by a scan is not a send target.
 3. Funding-key split, logged, before the hashes, if the count of coins over 3 tKAS is thin. Family top-up only if a key has no coin of at least 15 tKAS. The new coins are left until their block DAA is behind the tip. The payment pile is reused if it still has at least 4,500 coins over 10 tKAS.
 4. Hashes first. Thirteen rows in [hashes/SIXTEEN.md](../hashes/README.md) (the file keeps that name). The offline check builds them and does not submit.

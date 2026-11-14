@@ -10,5 +10,5 @@ Locked before the first submit.
 - No heavy lane.
 - One counter: the desk node. The Mini is not reachable. No Mini-armed file.
 - Keys 1 and 2 are not used. One distinct key per family. The payment sender stops on usable funds under 18,000 tKAS, not on a coin count.
-- Disk line: abort if the desk is under 150 GB free. It was 337.25 GB at 2026-11-14T13:45Z.
+- Disk line: abort if the desk is under 150 GB free. It was 337.4 GB at 2026-11-14T13:36:51Z.
 - A miss is a retry with the fix written first. This page is not rewritten to match the result.
