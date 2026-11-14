@@ -15,6 +15,6 @@ The prediction page is not edited. A wrong row is the lesson. The per-minute num
 - The counter's last snapshot, at the stop: 26,726 floor hops, 90 kcc hops, 1,182,406 payment ids logged and 1,182,406 of those included, 36 minutes. These are not a closed window and not a tail. The kcc hop count matches the 90 mint accepts.
 - Our own setup spend, from our logs and not a network reading: the dust sweep on the funding key before the arm was 180 transactions and 20.142776 tKAS of fees. The twelve family keys were funded at 20 tKAS each, fees 0.024552 tKAS. The payment pile was not split in this run. We do not add those into a network fee total.
 - The free check before any submit kept 7 answering names and 3 distinct nodes. Five of the seven are one node. Payments went to the kept public nodes. Families, mints and the guest stayed on the desk node.
-- The desk node was not restarted. A lingering-id sample was not taken; the rot log is empty.
+- The desk node was not restarted. The rotation log has 36 samples, about one a minute from 13:44:35Z to 14:19:35Z. Every sample listed 0 still in the mempool. The later samples checked 40 accepted ids. That is the sample the process took. It is not a closed 1,440-id count.
 - HOLD-1 and HOLD-2 are the fee-flip readings we trust from this run. HOLD-3, HOLD-4 and RETURN are not a reading of 3,040 or of recovery. One node, one run. We do not read any of it as a correction of finding 1. Corrections welcome.
 - Retry count 0. The next attempt is a new repo. This one is not resumed.

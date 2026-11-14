@@ -14,7 +14,7 @@
 | The change | One knob: floor families 1–12 pay 200 sompi per gram of node mass. In pre-run 33 they paid 100, and the payments paid 150. Payments stay at 150. Families stay at 12. No heavy lane |
 | Met or not met | **not met**. HOLD-1 and HOLD-2 met on payment submit-OK. HOLD-3 did not. HOLD-4 is an observation. RETURN had started and was not scored. The runner stopped at 14:19:36Z on the family-key abort (usable tKAS under 18,000). Guest carriers 8 of 8. Mint line 90 accepts, 0 rejects, stopped on its try cap |
 | Retry count | 0. The next attempt is a new repo. This one is not resumed |
-| Core tags | 1. A lingering-id sample was not closed; the rot log is empty, so no count is given |
+| Core tags | 1. Rotation log: 36 samples, 0 still listed in every sample, 40 ids checked in the later samples |
 | Status | failed. Closed from the published step files and the counter's last snapshot |
 
 Plan, lock, and the prediction are in [plan/PLAN.md](plan/PLAN.md), [locks/LOCKED.md](locks/LOCKED.md), and [plan/PREDICTIONS.md](plan/PREDICTIONS.md). Written before any submit.
