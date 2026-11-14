@@ -12,9 +12,9 @@
 |---|---|
 | Target | The three lines stay up while simple payments are offered at 1,013, then 2,027, then 3,040, then one minute at 4,053, then 1,013 again. At least one hop, one mint and one guest carrier land in the open window. The run names the first line that falls behind |
 | The change | One knob: floor families 1–12 pay 200 sompi per gram of node mass. In pre-run 33 they paid 100, and the payments paid 150. Payments stay at 150. Families stay at 12. No heavy lane |
-| Met or not met | not sent yet |
-| Retry count | 0. Does not retry a run. Follows pre-run 33 (same ladder, floor fee 100, combined target met, floor hops left their quiet pace at the 1,013 step) |
-| Core tags | 1 |
-| Status | plan, not armed |
+| Met or not met | **not met**. HOLD-1 and HOLD-2 met on payment submit-OK. HOLD-3 did not. HOLD-4 is an observation. RETURN had started and was not scored. The runner stopped at 14:19:36Z on the family-key abort (usable tKAS under 18,000). Guest carriers 8 of 8. Mint line 90 accepts, 0 rejects, stopped on its try cap |
+| Retry count | 0. The next attempt is a new repo. This one is not resumed |
+| Core tags | 1. A lingering-id sample was not closed; the rot log is empty, so no count is given |
+| Status | failed. Closed from the published step files and the counter's last snapshot |
 
 Plan, lock, and the prediction are in [plan/PLAN.md](plan/PLAN.md), [locks/LOCKED.md](locks/LOCKED.md), and [plan/PREDICTIONS.md](plan/PREDICTIONS.md). Written before any submit.
